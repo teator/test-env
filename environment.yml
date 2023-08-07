@@ -8,6 +8,5 @@ dependencies:
   - pandas
   - bokeh
   - rpy2
-  - pip
-  - pip:
-    - julia
+  - r-base=3.6
+  - r-tidyverse
