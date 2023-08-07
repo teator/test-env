@@ -1,4 +1,0 @@
-# Packages to be installed for python 2 environment
-numpy
-matplotlib
-pandas
