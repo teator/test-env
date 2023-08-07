@@ -2,8 +2,10 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - numpy
+  - python=3.7
   - matplotlib
+  - numpy
   - pandas
   - bokeh
+  - pip:
+    - julia
