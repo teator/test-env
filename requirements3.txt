@@ -1,4 +1,0 @@
-# Packages to be installed for python 3 environment
-numpy
-matplotlib
-pandas
