@@ -1,12 +1,28 @@
 name: example-environment
 channels:
   - conda-forge
+  - r
+  - anaconda
 dependencies:
-  - python=3.9
-  - matplotlib
-  - numpy
-  - pandas
-  - bokeh
-  - rpy2
-  - r-base=3.6
+  - r-base=4.1
+  - r-irkernel
   - r-tidyverse
+  - r-rcpp
+  - r-zipfR
+  - r-optimr
+  - r-matrixstats
+  - r-stringr
+  - pip
+  - pip:
+    - scipy
+    - numpy
+    - statsmodels
+    - pandas
+    - matplotlib
+    - seaborn
+    - openpyxl
+    - pytest
+    - rich
+    - snakemake
+    - nbgitpuller
+    - jupytext
